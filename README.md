@@ -29,6 +29,7 @@ Vim is a powerful text editor with a rich set of commands. Here are some of the 
 - `v` : Start visual mode (character-wise selection)
 - `V` : Start visual line mode (select whole lines)
 - `Ctrl-v` : Start visual block mode (select a block of text)
+- `ggVG` : Select all text in the file
 
 ### Editing Text
 - `y` : Yank (copy) selected text
@@ -40,6 +41,7 @@ Vim is a powerful text editor with a rich set of commands. Here are some of the 
 - `x` : Delete the character under the cursor
 - `u` : Undo
 - `Ctrl-r` : Redo
+- `:%d` : Delete all text in the file
 
 ### Searching
 - `/pattern` : Search for `pattern`
